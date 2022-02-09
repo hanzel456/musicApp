@@ -1,0 +1,255 @@
+body{
+  font-family: 'Montserrat';
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 2;
+
+}
+
+#tDescription{
+  font-size: 1.1rem;
+}
+
+#title{
+  background-color: #30475E;
+}
+
+.container-fluid{
+  padding: 3% 8%;
+}
+
+.header{
+  color: #EEEEEE;
+}
+
+.titleHr{
+  border-top: 0.5rem dotted #393E46;
+  width: 20%;
+}
+
+.dropdown-menu {
+  background-color: #212529;
+  padding-right: 1rem;
+}
+
+.dropdown-item{
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown{
+  padding-right: 4rem;
+}
+
+.downloadBtn{
+  margin-left: 25%;
+}
+
+.downloadButton{
+  margin: 5% 3% 3% 0;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar{
+  margin-bottom: 5%;
+}
+
+#iphoneImg{
+  padding-left: 5%;
+}
+
+/* trending in community */
+
+#trending{
+  padding-top: 1rem;
+  background-color: #5cdb95;
+}
+.trackButton{
+  padding: 0;
+  margin: 2rem 0;
+  display: block;
+}
+
+.track{
+  -webkit-filter: brightness(100%);
+  border: 0.3rem;
+  border-style: solid;
+  border-color: black;
+
+  width: 19rem;
+  height: 11.5rem;
+}
+
+.track:hover{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.trackName{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #BD2000;
+}
+
+.trackDes{
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.trendingHeading{
+  margin: 3rem 0 0 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #05386b;
+}
+
+.trendingHr{
+  width: 85%;
+  border-top: 0.4rem;
+  border-style: solid;
+  border-color: #379683;
+  margin-top: 2rem;
+}
+
+.trendingRow{
+  padding-bottom: 2rem;
+}
+
+/* carousel */
+
+#carousel{
+  background-color: #121217;
+  text-align: center;
+  color: white;
+  padding-bottom: 7%;
+
+
+}
+.fa-headphones{
+  color: white;
+  border: 0.1rem solid;
+  border-radius: 100%;
+  border-color: #5cdb95;
+  padding: 0.9rem;
+}
+
+h3{
+  padding: 7% 0 1%;
+  font-family: Ubuntu;
+}
+
+h4{
+  padding-top: 0.5%;
+}
+
+.carouselImg{
+  width: 50%;
+  border: 0.3rem solid #A13333;
+}
+
+#genereCarousel{
+  padding-top: 2%;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #F5F5F5;
+
+}
+
+h5{
+  color: black;
+}
+
+h6{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.pricingCol{
+  padding: 3% 2%;
+}
+
+/* Download Now */
+
+#download{
+  background-color: #30475E;
+  color: #eee2dc;
+  padding: 10% 0;
+}
+
+.downloadBtn2{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.downloadButton2{
+  padding: 1% 5%;
+  margin: 1%;
+  font-weight: bold;
+}
+
+/* footer */
+
+footer{
+  background-color: #F5F5F5;
+  padding-bottom: 1rem;
+}
+
+.socialImg{
+  width: 2rem;
+  margin: 2rem 1rem 1rem;
+}
+
+.socialMedia{
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .contactInfo{
+    text-align: center;
+  }
+
+  .contactImg{
+    width: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:501px) {
+  .contactImg{
+    width: 2rem;
+    margin-left: 49%;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+.contactLink{
+  color: #A13333;
+}
